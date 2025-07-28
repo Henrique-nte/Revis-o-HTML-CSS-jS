@@ -5,10 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade 2</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        #minha-lista {
+  list-style: none; /* remove os marcadores padrão */
+  padding: 0;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 300px;
+}
+
+#minha-lista li {
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+#minha-lista li:hover {
+  background-color: #dcdcdc;
+  cursor: pointer;
+}
+
+    </style>
 <body>
 
+    <input type="text" name="" id="novo-item-input" placeholder="Digite um novo item">
+    <button id="adicionar-btn">Adicionar Item</button>
     
-    
+    <ul id="minha-lista">
+    <li>Henrique Sanstos Silva</li>
+    <li>Gabriel Gustavo</li>
+    <li>Mirella Silveira</li>
+    </ul>
+
     <script src="script.js"></script>
 </body>
 </html>
