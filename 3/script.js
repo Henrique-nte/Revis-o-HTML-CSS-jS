@@ -8,10 +8,10 @@ botao.addEventListener("click", function(){
     if (valorItem !== ""){
         let novoItem = document.createElement("li");
         
-        li.textContent  = valorItem;
+        novoItem.textContent  = valorItem;
 
         lista.appendChild(novoItem);
     }
-    input.value = '';
+    valorItem.value = '';
     
 });
